@@ -1,9 +1,0 @@
----
-title: "Hola mundo"
-subtitle: "Una base tranquila para empezar"
-date: 2025-01-01 09:00:00 +0100
-categories: [inicio]
-tags: [bienvenida, notas]
----
-
-Este es un ejemplo de entrada para validar el diseño. Cuando importemos tu WordPress, este archivo se puede borrar.
