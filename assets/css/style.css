@@ -1,0 +1,422 @@
+:root {
+  --ink: #1d1c17;
+  --ink-soft: #3f3a32;
+  --muted: #7a7367;
+  --paper: #f5f1e8;
+  --paper-deep: #e7dfd0;
+  --mist: #fbfaf6;
+  --accent: #a16a3a;
+  --accent-strong: #2d5e5b;
+  --accent-soft: #ead8c4;
+  --max-width: 980px;
+  --radius: 22px;
+  --shadow-soft: 0 18px 45px rgba(34, 30, 22, 0.08);
+  --shadow-lift: 0 30px 70px rgba(34, 30, 22, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: linear-gradient(180deg, #f6f2e8 0%, #fdfbf7 55%, #ffffff 100%);
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 8% 20%, rgba(161, 106, 58, 0.16), transparent 45%),
+    radial-gradient(circle at 92% 8%, rgba(45, 94, 91, 0.12), transparent 40%),
+    radial-gradient(circle at 50% 80%, rgba(68, 78, 92, 0.08), transparent 50%);
+  z-index: -2;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    linear-gradient(120deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)),
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0.025) 1px, transparent 1px, transparent 18px);
+  opacity: 0.25;
+  z-index: -1;
+  pointer-events: none;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: min(100% - 2.5rem, var(--max-width));
+  margin: 0 auto;
+}
+
+.site-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(8px);
+  background: rgba(251, 250, 246, 0.9);
+  border-bottom: 1px solid rgba(161, 106, 58, 0.16);
+  z-index: 10;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.4rem 0 1.1rem;
+  gap: 1.5rem;
+}
+
+.site-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.site-logo {
+  display: block;
+  height: 38px;
+  width: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(34, 30, 22, 0.12);
+}
+
+.site-title-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.site-name {
+  font-family: "Zen Kaku Gothic New", "Helvetica Neue", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.site-tagline {
+  font-family: "Zen Kaku Gothic New", "Helvetica Neue", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.site-nav {
+  display: inline-flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  font-family: "Zen Kaku Gothic New", "Helvetica Neue", sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  color: var(--muted);
+}
+
+.site-nav a:hover {
+  border-color: rgba(161, 106, 58, 0.3);
+  color: var(--accent-strong);
+}
+
+.main-content {
+  flex: 1;
+}
+
+.hero {
+  padding: 3.6rem 0 2.4rem;
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.eyebrow {
+  font-family: "Zen Kaku Gothic New", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 3vw + 1rem, 3.6rem);
+  margin: 0.4rem 0 0.8rem;
+}
+
+.lead {
+  font-size: 1.15rem;
+  color: var(--ink-soft);
+  max-width: 36rem;
+}
+
+.hero-actions {
+  margin-top: 1.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  font-family: "Zen Kaku Gothic New", "Helvetica Neue", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid rgba(161, 106, 58, 0.3);
+  color: var(--accent-strong);
+  background: rgba(251, 250, 246, 0.9);
+}
+
+.pill.is-filled {
+  background: var(--accent-strong);
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.hero-card {
+  background: var(--paper);
+  border-radius: var(--radius);
+  padding: 1.7rem;
+  box-shadow: var(--shadow-soft);
+  border: 1px solid rgba(161, 106, 58, 0.12);
+}
+
+.hero-card__title {
+  font-family: "Zen Kaku Gothic New", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-size: 0.7rem;
+  margin-bottom: 0.8rem;
+}
+
+.ritual-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.ritual-list li {
+  display: flex;
+  gap: 0.75rem;
+  align-items: start;
+  font-size: 0.95rem;
+}
+
+.ritual-dot {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-top: 0.35rem;
+  flex-shrink: 0;
+}
+
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 1.6rem;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 2vw + 1rem, 2.6rem);
+}
+
+.post-list {
+  padding: 1.4rem 0 3.5rem;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.4rem;
+}
+
+.post-card {
+  padding: 1.6rem;
+  background: var(--paper);
+  border: 1px solid rgba(161, 106, 58, 0.12);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lift);
+}
+
+.post-card h3 {
+  margin: 0.6rem 0 0.6rem;
+  font-size: 1.4rem;
+}
+
+.post-card a {
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.post-meta {
+  font-family: "Zen Kaku Gothic New", "Helvetica Neue", sans-serif;
+  font-size: 0.7rem;
+  color: var(--muted);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.post {
+  padding: 3rem 0 3.5rem;
+}
+
+.post-title {
+  font-size: clamp(2.2rem, 3vw + 1rem, 3.4rem);
+  margin-bottom: 0.6rem;
+}
+
+.post-subtitle {
+  color: var(--muted);
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.post-content {
+  font-size: 1.08rem;
+}
+
+.post-content h2,
+.post-content h3 {
+  margin-top: 2.4rem;
+}
+
+.post-content blockquote {
+  margin: 2rem 0;
+  padding: 1.2rem 1.6rem;
+  border-left: 3px solid var(--accent);
+  background: var(--paper);
+  border-radius: 12px;
+  color: var(--ink-soft);
+}
+
+.post-content a {
+  color: var(--accent-strong);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(45, 94, 91, 0.35);
+}
+
+.post-content img {
+  border-radius: 18px;
+  box-shadow: var(--shadow-soft);
+}
+
+.post-tags {
+  margin-top: 2.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  font-family: "Zen Kaku Gothic New", "Helvetica Neue", sans-serif;
+  font-size: 0.8rem;
+}
+
+.post-tags a {
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.archive article,
+.tags ul {
+  margin-bottom: 1.5rem;
+}
+
+.tags ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tags li {
+  margin-bottom: 0.4rem;
+}
+
+.site-footer {
+  border-top: 1px solid rgba(161, 106, 58, 0.1);
+  padding: 2.4rem 0 3rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.footer-mantra {
+  margin: 0.4rem 0 0;
+  font-family: "Zen Kaku Gothic New", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+@media (max-width: 900px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .site-tagline {
+    display: none;
+  }
+
+  .hero {
+    padding-top: 2.8rem;
+  }
+
+  .post-card {
+    padding: 1.3rem;
+  }
+}

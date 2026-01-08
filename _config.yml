@@ -1,0 +1,26 @@
+title: "Daizan Soriano"
+description: "Blog personal del maestro zen Daizan Soriano"
+url: ""
+baseurl: ""
+lang: "es"
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: /:categories/:title/
+
+# GitHub Pages-safe plugins
+plugins:
+  - jekyll-feed
+
+# Build settings
+sass:
+  style: compressed
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: ""
