@@ -6,9 +6,9 @@ categories: ["Zen"]
 tags: ["zazen"]
 ---
 
-«*Media noche es la verdadera luz, el alba no es clara*».
+«*Medianoche es la verdadera luz; el alba no es clara*».
 
-Esta frase aparece en *El samadhi del Espejo Precioso*, texto atribuido al maestro *Dongshan Liangjie* (*Tozan Ryokai* en japonés). Este texto pertenece al corazón de la tradición Zen y apunta directamente a la experiencia no dual de la práctica, más allá de la comprensión conceptual. Pocas palabras y, sin embargo, una enseñanza profunda, como es habitual en los maestros de la tradición Zen. 
+Esta frase aparece en *El samadhi del Espejo Precioso*, texto atribuido al maestro *Dongshan Liangjie* (*Tozan Ryokai* en japonés). Este texto pertenece al corazón de la tradición Zen y apunta directamente a la experiencia no dual de la práctica, más allá de la comprensión conceptual. Pocas palabras y, sin embargo, una enseñanza profunda, como es habitual en los maestros de la tradición Zen.
 <!--more-->
 Estamos acostumbrados a pensar la vía espiritual como un proceso de clarificación. Entender más, ver mejor, iluminar lo que estaba oscuro. Incluso cuando nos acercamos al budismo Soto Zen, traemos muchas veces esa expectativa a cuestas: practicar zazen para aclarar la mente, para purificarla y limpiarla, para comprendernos, para alcanzar una especie de amanecer interior. Y, sin embargo, *Dongshan* nos da la vuelta como a un calcetín. Nos dice que la verdadera luz no está en el alba, sino en la medianoche.
 
@@ -32,6 +32,6 @@ Esta es una enseñanza especialmente valiosa hoy, en una época obsesionada con 
 
 La medianoche de la que habla el *Samadhi del Espejo Precioso* no es deprimente ni nihilista. No es una oscuridad desesperada, no excluye el alba, sino que la sitúa en su lugar justo. Es una oscuridad fértil, silenciosa, íntima. Es el espacio interior donde ya no necesitamos confirmar quiénes somos ni hacia dónde vamos. Donde la práctica deja de ser un medio para convertirse en expresión directa de la vida tal como es. 
 
-La tradición Soto Zen no promete amaneceres espectaculares ni iluminaciones deslumbrantes. Es mucho más sencilla, simplemente sentarnos incluso con lo que no entendemos. Confiando en una luz que no se ve, pero que sostiene todo.
+La tradición Soto Zen no promete amaneceres espectaculares ni iluminaciones deslumbrantes. Es mucho más sencillo: simplemente sentarnos incluso con lo que no entendemos, confiando en una luz que no se ve, pero que sostiene todo.
 
 Practicar zazen es aprender a zambullirnos en la medianoche sin huir de ella. Y descubrir, poco a poco, que no estaba tan oscura como parecía.

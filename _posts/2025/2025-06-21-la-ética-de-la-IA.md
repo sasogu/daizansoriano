@@ -14,7 +14,7 @@ Harari menciona dos grandes corrientes que han marcado la filosofía moral occid
 
 ### Deontología: el deber por encima de todo
 
-La deontología, cuyo representante más conocido es Immanuel Kant, parte de la idea de que existen principios morales universales que deben cumplirse siempre, sin importar las consecuencias. Dicho simple: hay cosas que están mal, «pase lo que pase». Ejemplos clásicos son «no matarás» o «no mentirás». En la vida diaria, se parece a respetar un semáforo en rojo, aunque la calle esté vacía: la norma protege algo valioso y no depende de cómo te sientas hoy.
+La deontología, cuyo representante más conocido es Immanuel Kant, parte de la idea de que existen principios morales universales que deben cumplirse siempre, sin importar las consecuencias. Dicho simplemente: hay cosas que están mal, «pase lo que pase». Ejemplos clásicos son «no matarás» o «no mentirás». En la vida diaria, se parece a respetar un semáforo en rojo, aunque la calle esté vacía: la norma protege algo valioso y no depende de cómo te sientas hoy.
 
 Trasladado a la IA, esto implicaría programar sistemas con reglas fijas. Por ejemplo: un asistente que nunca invente datos (no mentir), un vehículo autónomo que nunca exceda la velocidad, o un algoritmo médico que nunca comparta información sensible. La ventaja es la claridad: sabemos a qué atenernos. El riesgo es la rigidez: el mundo es cambiante, y una regla absoluta puede chocar con situaciones límite. ¿Qué pasa si «no mentir» expone a alguien a un daño grave? ¿O si respetar una regla al pie de la letra empeora un problema en vez de aliviarlo?
 
@@ -25,7 +25,8 @@ Harari advierte que esta rigidez puede causar efectos no deseados. Un sistema qu
 El utilitarismo mide lo correcto por sus consecuencias: la acción buena es la que produce el mayor beneficio para el mayor número de personas. En la vida diaria, lo reconocemos cuando alguien dice: «no es ideal, pero es lo mejor para la mayoría». Trasladado a la IA, imaginaríamos algoritmos que calculan cómo maximizar el bienestar global: asignar recursos sanitarios, organizar el tráfico, o priorizar contenidos educativos que más ayuden.
 
 Su fuerza es la practicidad y la mirada a gran escala. Su sombra es que, si solo importa el resultado agregado, podemos justificar medios dañinos, sacrificar a minorías o ignorar valores como la justicia o la dignidad. Una IA obsesionada con «la eficiencia» podría tomar decisiones frías y deshumanizadas, aunque mejore algunas estadísticas.
-El marco que propone Harari
+
+### El marco que propone Harari
 
 En Nexus, Harari no se queda con una sola postura. Propone un enfoque combinado que incluya, al menos, tres elementos:
 
@@ -69,11 +70,11 @@ No basta con bellas palabras; hacen falta guías prácticas. Propongo esta sínt
 
 ### Un diálogo posible
 
-Si aplicamos esta mirada al problema que plantea Harari, podríamos decir que la deontología aporta claridad de principios, pero necesita flexibilidad; el utilitarismo aporta atención a resultados, pero necesita cuidar los medios y las motivaciones; y la ética budista propone sostener juntas las tres dimensiones, principios, consecuencias e intenciones, orientadas a la disminución del sufrimiento.
+Si aplicamos esta mirada al problema que plantea Harari, podríamos decir que la deontología aporta claridad de principios, pero necesita flexibilidad; el utilitarismo aporta atención a resultados, pero necesita cuidar los medios y las motivaciones; y la ética budista propone sostener juntas las tres dimensiones —principios, consecuencias e intenciones— orientadas a la disminución del sufrimiento.
 
 Un sistema de IA inspirado en este espíritu no solo seguiría normas ni solo optimizaría métricas: leería el contexto, cuidaría la intención detrás de cada decisión y priorizaría el bienestar profundo, no solo la satisfacción inmediata. No se trata de máquinas «buenas» por decreto, sino de tecnologías inscritas en comunidades que practican la responsabilidad, la transparencia y el cuidado.
 
 ----
 La IA no será mejor que las comunidades que la desarrollan. Si creamos marcos donde la verdad se contrasta, el poder rinde cuentas y el error se repara, la técnica puede ponerse al servicio de la dignidad. Esto se resume en un compromiso práctico: reducir el daño, cuidar a quienes quedan fuera del promedio y aprender juntos a cada paso.
 
-No programamos solo código: nos programamos a nosotros y nosotras cada vez que elegimos cómo usarlo. Cuando una mente sabe parar, escuchar y cuidar, la tecnología se vuelve un medio hábil, no un obstáculo. Mirar el sufrimiento de frente y responder de la manera más adecuada posible en cada situación, es una ética que necesitamos aplicar también a la IA.
+No programamos solo código: nos programamos a nosotros y nosotras cada vez que elegimos cómo usarlo. Cuando una mente sabe parar, escuchar y cuidar, la tecnología se vuelve un medio hábil, no un obstáculo. Mirar el sufrimiento de frente y responder de la manera más adecuada posible en cada situación es una ética que necesitamos aplicar también a la IA.

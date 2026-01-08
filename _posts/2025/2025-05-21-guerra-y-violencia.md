@@ -22,7 +22,7 @@ No quiero dejar de hacer mención en esta entrada de blog a la historia del zen 
 
 Otro momento notable fue durante la Segunda Guerra Mundial, cuando el nacionalismo japonés llevó a algunos maestros zen a justificar y apoyar activamente la participación del país en la guerra. Esta posición nacionalista, que entró en profunda contradicción con los principios fundamentales del budismo, sigue siendo un tema de reflexión y autocrítica en la comunidad zen contemporánea.
 
-Reconocer esta realidad histórica no es debilitar la postura actual que algunos maestros podamos mantener, sino fortalecerla al asumir honestamente las acciones realizadas en el pasado. Recordándonos la necesidad constante de vigilar nuestra comprensión y aplicación del Dharma, asegurándonos siempre de permanecer firmemente anclados en la compasión y la no-violencia como valores esenciales.
+Reconocer esta realidad histórica no es debilitar la postura actual que algunos maestros podamos mantener, sino fortalecerla al asumir honestamente las acciones realizadas en el pasado. Esto nos recuerda la necesidad constante de vigilar nuestra comprensión y aplicación del Dharma, asegurándonos siempre de permanecer firmemente anclados en la compasión y la no-violencia como valores esenciales.
 
 ### No-Acción como Respuesta Efectiva
 
@@ -42,7 +42,7 @@ Mientras escribía esta entrada, leí un artículo del filósofo Luciano Floridi
 
 En el budismo Soto Zen hacemos énfasis en que no hay nada que obtener (musotoku): el camino del bodhisattva no busca recompensas ni logros personales, sino que actúa desde una compasión libre de expectativas. Esta actitud se sostiene sobre tres pilares fundamentales: no apegarse a la acción, no apegarse al resultado de la acción, y no apegarse a la idea de un yo que realiza una acción. Así, el bien se manifiesta como una expresión natural de nuestra naturaleza búdica, no como un medio para alcanzar fines. Actuar desde esta comprensión es liberar la acción del ego y del cálculo, permitiendo que surja de la vacuidad, clara y directa.
 
-El bien no se practica por su utilidad inmediata, sino porque expresa y cultiva nuestra verdadera naturaleza. Incluso cuando el mundo parezca dominado por la violencia, incluso cuando nuestras acciones parezcan insuficientes, hacer el bien es resistir, es mantenerse humano, es recordar que la compasión es nuestra forma más profunda de estar en el mundo. Incluso cuando el mundo parezca dominado por la violencia, incluso cuando nuestras acciones parezcan insuficientes, hacer el bien es resistir, es mantenerse humano, es recordar que la compasión es nuestra forma natural y auténtica de ser y estar en el mundo.
+El bien no se practica por su utilidad inmediata, sino porque expresa y cultiva nuestra verdadera naturaleza. Incluso cuando el mundo parezca dominado por la violencia, incluso cuando nuestras acciones parezcan insuficientes, hacer el bien es resistir, es mantenerse humano, es recordar que la compasión es nuestra forma natural y auténtica de ser y estar en el mundo.
 
 ### Justicia y Acción Colectiva
 

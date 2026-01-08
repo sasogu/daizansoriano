@@ -2,7 +2,7 @@
 
 Este repo es una base sencilla para GitHub Pages con un tema zen.
 
-## Arranque rapido
+## Arranque rápido
 
 1. Cambia `title`, `description`, `url` y `author` en `_config.yml`.
 2. Edita `about.md`.
@@ -17,13 +17,13 @@ bundle exec jekyll serve
 
 ## Importar desde WordPress
 
-Tienes dos rutas. La mas completa es WXR (exportacion de WordPress), que trae categorias, etiquetas y adjuntos.
+Tienes dos rutas. La más completa es WXR (exportación de WordPress), que trae categorías, etiquetas y adjuntos.
 
-### Opcion A: Archivo WXR (recomendada)
+### Opción A: Archivo WXR (recomendada)
 
 1. En WordPress: Herramientas → Exportar → Todo el contenido.
 2. Guarda el `.xml` en este repo (por ejemplo `import/wordpress.xml`).
-3. Instala la gema de importacion y ejecuta:
+3. Instala la gema de importación y ejecuta:
 
 ```bash
 gem install jekyll-import
@@ -32,9 +32,9 @@ jekyll import wordpress \
   --no-fetch-images false
 ```
 
-Esto crea entradas en `_posts/` con categorias y etiquetas. Las imagenes se descargan al ejecutarse (requiere red).
+Esto crea entradas en `_posts/` con categorías y etiquetas. Las imágenes se descargan al ejecutarse (requiere red).
 
-### Opcion B: RSS/Atom
+### Opción B: RSS/Atom
 
 Si solo tienes un RSS, se puede convertir con:
 
@@ -43,11 +43,11 @@ gem install jekyll-import
 jekyll import rss --source https://tu-blog.com/feed/ 
 ```
 
-Esto importara posts y etiquetas si vienen en el feed, pero puede perder categorias y adjuntos.
+Esto importará posts y etiquetas si vienen en el feed, pero puede perder categorías y adjuntos.
 
-## Notas sobre imagenes
+## Notas sobre imágenes
 
-- Si tienes muchas imagenes, es mejor usar la exportacion WXR y permitir descarga de adjuntos.
+- Si tienes muchas imágenes, es mejor usar la exportación WXR y permitir descarga de adjuntos.
 - Otra alternativa es copiar manualmente `wp-content/uploads` a `assets/uploads/` y ajustar rutas.
 
 ## Limpieza
