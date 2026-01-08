@@ -6,8 +6,6 @@ categories: ["Etica"]
 tags: ["IA"]
 ---
 
-# Harari, la ética de la IA y la mirada budista: deontología, utilitarismo y compasión en diálogo
-
 Estoy leyendo el último libro de ***Yuval Noah Harari***, *Nexus: Una breve historia de las redes de información desde la Edad de Piedra hasta la IA*. En él, Harari explora cómo la información ha tejido la historia humana y cómo la irrupción de la inteligencia artificial abre un capítulo sin precedentes. Entre sus reflexiones, dedica un espacio a un asunto que como budista me parece clave: qué principios éticos deberían guiar a la IA. Este texto no es un resumen del libro, sino un diálogo con sus propuestas desde la práctica del budismo soto zen.
 
 Harari menciona dos grandes corrientes que han marcado la filosofía moral occidental: la deontología y el utilitarismo. A partir de ahí, advierte de sus límites y propone un marco más flexible. Aquí intento explicar esos enfoques con ejemplos sencillos y ponerlos en conversación con la ética budista, para ver semejanzas, diferencias y, sobre todo, qué puede servirnos hoy al diseñar y usar sistemas de IA.
