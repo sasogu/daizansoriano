@@ -6,7 +6,7 @@ lang: "es"
 markdown: kramdown
 kramdown:
   input: GFM
-permalink: /:categories/:title/
+permalink: /:title/
 
 # GitHub Pages-safe plugins
 plugins:
