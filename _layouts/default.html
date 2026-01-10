@@ -7,14 +7,24 @@
     <div class="site-shell">
       <header class="site-header">
         <div class="container header-inner">
-          <a class="site-title" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}">
-            <img class="site-logo" src="{{ '/assets/logo.png' | relative_url }}" alt="Logo de {{ site.title }}" width="699" height="99" decoding="async" />
-            <span class="site-title-text">
-              <span class="site-name">{{ site.title }}</span>
-              <span class="site-tagline">{{ site.description }}</span>
-            </span>
-          </a>
-          <nav class="site-nav">
+          <div class="header-brand">
+            <a class="site-title" href="{{ '/' | relative_url }}" aria-label="{{ site.title }}">
+              <img class="site-logo" src="{{ '/assets/logo.png' | relative_url }}" alt="Logo de {{ site.title }}" width="699" height="99" decoding="async" />
+              <span class="site-title-text">
+                <span class="site-name">{{ site.title }}</span>
+                <span class="site-tagline">{{ site.description }}</span>
+              </span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-controls="site-nav" aria-expanded="false">
+              <svg class="nav-toggle__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+                <path fill="currentColor" d="M4 6.5h16a1 1 0 0 0 0-2H4a1 1 0 0 0 0 2Zm16 5H4a1 1 0 0 0 0 2h16a1 1 0 0 0 0-2Zm0 7H4a1 1 0 0 0 0 2h16a1 1 0 0 0 0-2Z"/>
+              </svg>
+              <span class="nav-toggle__text">Menú</span>
+            </button>
+          </div>
+
+          <nav class="site-nav" id="site-nav">
             <a href="{{ '/about/' | relative_url }}">Acerca de</a>
             <a href="{{ '/archive/' | relative_url }}">Archivo</a>
             <a href="{{ '/tags/' | relative_url }}">Etiquetas</a>
@@ -33,5 +43,41 @@
         </div>
       </footer>
     </div>
+
+    <script>
+      (function () {
+        var button = document.querySelector('.nav-toggle');
+        var nav = document.getElementById('site-nav');
+
+        if (!button || !nav) return;
+
+        function setOpen(isOpen) {
+          nav.classList.toggle('is-open', isOpen);
+          button.setAttribute('aria-expanded', String(isOpen));
+          button.setAttribute('aria-label', isOpen ? 'Cerrar menú' : 'Abrir menú');
+        }
+
+        button.addEventListener('click', function () {
+          setOpen(!nav.classList.contains('is-open'));
+        });
+
+        nav.addEventListener('click', function (event) {
+          var link = event.target && event.target.closest ? event.target.closest('a') : null;
+          if (link) setOpen(false);
+        });
+
+        document.addEventListener('click', function (event) {
+          if (!nav.classList.contains('is-open')) return;
+          var insideHeader = event.target && event.target.closest ? event.target.closest('.site-header') : null;
+          if (!insideHeader) setOpen(false);
+        });
+
+        window.addEventListener('resize', function () {
+          if (window.matchMedia && window.matchMedia('(min-width: 721px)').matches) {
+            setOpen(false);
+          }
+        });
+      })();
+    </script>
   </body>
 </html>
