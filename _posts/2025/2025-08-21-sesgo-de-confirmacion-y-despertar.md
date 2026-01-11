@@ -7,7 +7,6 @@ tags: ["sesgo cognitivo"]
 ---
 
 El sesgo de confirmación es uno de los mecanismos de percepción más habituales, pero al mismo tiempo es uno de los que nos pasa más desapercibido. Básicamente consiste en nuestra tendencia a buscar y aceptar automáticamente la información que confirma nuestras creencias previas, mientras desechamos o ignoramos aquello que las cuestiona. En psicología se estudia como un filtro cognitivo; en la práctica del budismo Soto Zen lo reconocemos como una de las formas en que el yo se protege y refuerza su propia narrativa.
-<!--more-->
 
 Cuando nos sentamos en zazen, no tardamos en ver cómo la mente produce pensamientos que giran siempre alrededor de lo mismo, ideas recurrentes, recuerdos que sostienen nuestra identidad, juicios que nos reafirman en lo que ya pensábamos. Esa es la voz del sesgo de confirmación, que susurra constantemente: “Yo tenía razón”, “Lo sabía”, “Así son las cosas”. Pero la práctica consiste precisamente en no seguir ese hilo, en dejar pasar lo que surge, en abrirnos a lo que es sin necesidad de encajarlo en un esquema previo.
 
