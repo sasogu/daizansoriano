@@ -3,10 +3,10 @@ title: "Avatar y la pedagogía invisible de la violencia"
 subtitle: ""
 date: 2026-01-11 09:00:00 +0100
 categories: ["Cine"]
-tags: ["avatar"]
+tags: ["no-violencia"]
 ---
 
-El fin de semana fui al cine con mi familia a ver *Avatar: Fuego y ceniza*. Fue una tarde tranquila, con palomitas y la sensación agradable que da estar compartiendo algo bonito con seres queridos. Salimos contentos por el espectáculo visual, pero personalmente me quedé con una sensación de incomodidad.
+El fin de semana fui al cine con mi familia a ver _Avatar: Fuego y ceniza_. Fue una tarde tranquila, con palomitas y la sensación agradable que da estar compartiendo algo bonito con seres queridos. Salimos contentos por el espectáculo visual, pero personalmente me quedé con una sensación de incomodidad.
 
 Nada que objetar a la parte técnica ni estética. La película es impresionante en lo visual, y entiendo por qué es un fenómeno de masas. Pero, al mismo tiempo, me pregunto qué tipo de mirada sobre la realidad se va filtrando, sin darnos cuenta, cuando el relato nos coloca en una lógica donde la violencia termina siendo el lenguaje inevitable para resolver el conflicto.
 
