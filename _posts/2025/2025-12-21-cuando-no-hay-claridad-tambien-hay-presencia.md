@@ -20,7 +20,7 @@ Esta afirmación resulta profundamente desconcertante para nuestra mentalidad mo
 
 La luz de la medianoche no es una luz que muestre objetos. No es una claridad que permita decir «esto es esto» y «aquello es aquello». Es una presencia sin centro, una lucidez sin sujeto. No hay alguien viendo algo. No hay un yo que observe la realidad. Simplemente, la realidad está ahí, completa, sin necesidad de ser aclarada.
 
-Por eso el alba «no es clara». El amanecer trae consigo la luz diferenciadora. Vuelven las formas, los contornos, las comparaciones. Vuelve el mundo funcional, imprescindible para la vida cotidiana, pero también el mundo de la separación: yo y lo otro, dentro y fuera, correcto e incorrecto. El alba es útil, pero no es la luz de la vía. Confundir esa claridad con el despertar es uno de los errores más comunes en la práctica del Zen.
+Por eso el alba «no es clara». El amanecer trae consigo la luz diferenciadora. Vuelven las formas, los contornos, las comparaciones. Vuelve el mundo funcional, imprescindible para la vida cotidiana, pero también el mundo de la separación: yo y lo otro, dentro y fuera, correcto e incorrecto. El alba es útil, pero no es la luz de la Vía. Confundir esa claridad con el despertar es uno de los errores más comunes en la práctica del Zen.
 
 El _Samadhi del Espejo Precioso_ apunta justamente a esta paradoja. El espejo no ilumina nada. No añade luz. No interpreta. Simplemente, refleja, sin quedarse con lo reflejado. Y en realidad, ni siquiera refleja: es tan íntimo con lo que aparece que desaparece como espejo. No hay dos cosas. No hay espejo, por un lado, y reflejo, por otro.
 
