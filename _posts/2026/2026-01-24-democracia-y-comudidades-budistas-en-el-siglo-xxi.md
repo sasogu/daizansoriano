@@ -1,5 +1,5 @@
 ---
-title: Democracia y práctica en las comunidades budistas Soto Zen del siglo XXI"
+title: Democracia y práctica en las comunidades budistas Soto Zen del siglo XXI
 subtitle: ""
 date: 2026-01-24 09:00:00 +0100
 categories: ["Comunidad"]
