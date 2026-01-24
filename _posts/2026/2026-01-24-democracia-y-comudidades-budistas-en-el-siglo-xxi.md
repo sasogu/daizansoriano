@@ -6,7 +6,7 @@ categories: ["Comunidad"]
 tags: ["democracia"]
 ---
 
-Si entendemos la democracia únicamente como un sistema de votación donde todo se decide por mayoría, corremos el riesgo de aplicar categorías políticas modernas a una tradición espiritual que funciona desde otro eje cultural, pero no menos humano.
+Si entendemos la democracia únicamente como un sistema de votación donde todo se decide por mayoría, corremos el riesgo de aplicar categorías políticas modernas a una tradición espiritual que funciona desde otro eje cultural, no por ello menos válido.
 
 Las comunidades Soto Zen no son democracias en el sentido clásico del término, pero tampoco son estructuras autoritarias cerradas. Se mueven en un territorio intermedio, delicado, donde conviven jerarquía espiritual, responsabilidad personal y participación comunitaria. Y ese equilibrio es uno de los grandes desafíos del zen contemporáneo.
 
