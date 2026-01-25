@@ -1,6 +1,6 @@
 ---
-title: Democracia y práctica en las comunidades budistas Soto Zen del siglo XXI
-subtitle: ""
+title: Democracia en las comunidades budistas Soto Zen del siglo XXI
+subtitle: "Límites de la votación y sentido de la autoridad en la vía zen"
 date: 2026-01-24 09:00:00 +0100
 categories: ["Comunidad"]
 tags: ["democracia"]
