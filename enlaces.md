@@ -23,8 +23,8 @@ permalink: /enlaces/
     </article>
 
     <article class="link-card">
-      <h3>🎧 Podcast en Spotify</h3>
-      <a class="link-button" href="https://open.spotify.com/show/2E9o2myLK0SUnDECwsrZKg">🟢 Escuchar</a>
+      <h3>🎧 Podcast</h3>
+      <a class="link-button" href="https://cszcm.giuhub.io/Audioteca">🟢 Escuchar</a>
     </article>
 
     <article class="link-card">
