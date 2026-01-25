@@ -476,6 +476,23 @@ img {
   font-size: 0.75rem;
 }
 
+.footer-links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-family: "Zen Kaku Gothic New", "Helvetica Neue", sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(--muted);
+  border-bottom: 1px solid rgba(161, 106, 58, 0.25);
+}
+
 @media (max-width: 900px) {
   .hero-inner {
     grid-template-columns: 1fr;

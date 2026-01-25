@@ -28,8 +28,6 @@
             <a href="{{ '/about/' | relative_url }}">Acerca de</a>
             <a href="{{ '/enlaces/' | relative_url }}">Enlaces</a>
             <a href="{{ '/lista-correo/' | relative_url }}">Lista de correo</a>
-            <a href="{{ '/archive/' | relative_url }}">Archivo</a>
-            <a href="{{ '/tags/' | relative_url }}">Etiquetas</a>
           </nav>
         </div>
       </header>
@@ -42,6 +40,10 @@
         <div class="container">
           <p>© {{ site.time | date: "%Y" }} {{ site.title }}.</p>
           <p class="footer-mantra">Cada día es un buen día</p>
+          <nav class="footer-links">
+            <a href="{{ '/archive/' | relative_url }}">Archivo</a>
+            <a href="{{ '/tags/' | relative_url }}">Etiquetas</a>
+          </nav>
         </div>
       </footer>
     </div>
