@@ -23,7 +23,7 @@ body {
   color: var(--ink);
   background: linear-gradient(180deg, #f6f2e8 0%, #fdfbf7 55%, #ffffff 100%);
   font-family: "Cormorant Garamond", "Times New Roman", serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.75;
   letter-spacing: 0.01em;
 }
