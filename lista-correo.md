@@ -121,8 +121,8 @@ permalink: /lista-correo/
       }
     </style>
 
-    <form id="WebToLeadForm" action="https://caminomedio.sinergiacrm.org/index.php?entryPoint=stic_Web_Forms_saveRecaptcha" method="POST" name="WebToLeadForm">
-      
+    <form id="WebToLeadForm" action="https://caminomedio.sinergiacrm.org/index.php?entryPoint=WebToPersonCapture" method="POST" name="WebToLeadForm">
+      <h2>Daizan Soriano sensei</h2>
       <p>Esta lista de correo es un espacio sencillo para compartir reflexiones, entradas de blog y episodios del podcast que voy publicando como parte de mi práctica y enseñanza del budismo Soto Zen. Los envíos son ocasionales y puedes darte de baja cuando lo desees.</p>
       <div class="row">
         <div class="col"><label>Nombre: </label><input name="first_name" id="first_name" type="text" /></div>
@@ -147,8 +147,9 @@ permalink: /lista-correo/
       <input name="redirect_url" id="redirect_url" type="hidden" value="http://daizansoriano.com" />
       <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="00000f0b-aea0-cbf0-db07-682dc6e0639d" />
       <input name="moduleDir" id="moduleDir" type="hidden" value="Leads" />
-      <input type="hidden" id="redirect_ko_url" name="redirect_ko_url" value="" />
     </form>
+
+    <div class="notranslate" style="all: initial;">&nbsp;</div>
 
     <script type="text/javascript">
       // STIC-custom 20211122 - jch - Avoid multiple submission
@@ -166,6 +167,9 @@ permalink: /lista-correo/
         }
         formHasAlreadyBeenSent = true;
       }
+      // Attach function to event
+      document.getElementById("WebToLeadForm").addEventListener("submit", lockMultipleSubmissions);
+      // END STIC-custom
       function submit_form() {
         if (typeof validateCaptchaAndSubmit != "undefined") {
           validateCaptchaAndSubmit();
