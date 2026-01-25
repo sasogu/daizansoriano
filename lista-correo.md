@@ -122,7 +122,7 @@ permalink: /lista-correo/
     </style>
 
     <form id="WebToLeadForm" action="https://caminomedio.sinergiacrm.org/index.php?entryPoint=WebToPersonCapture" method="POST" name="WebToLeadForm">
-      <h2>Daizan Soriano sensei</h2>
+      <h2></h2>
       <p>Esta lista de correo es un espacio sencillo para compartir reflexiones, entradas de blog y episodios del podcast que voy publicando como parte de mi práctica y enseñanza del budismo Soto Zen. Los envíos son ocasionales y puedes darte de baja cuando lo desees.</p>
       <div class="row">
         <div class="col"><label>Nombre: </label><input name="first_name" id="first_name" type="text" /></div>
@@ -171,12 +171,8 @@ permalink: /lista-correo/
       document.getElementById("WebToLeadForm").addEventListener("submit", lockMultipleSubmissions);
       // END STIC-custom
       function submit_form() {
-        if (typeof validateCaptchaAndSubmit != "undefined") {
-          validateCaptchaAndSubmit();
-        } else {
-          check_webtolead_fields();
-          //document.WebToLeadForm.submit();
-        }
+        check_webtolead_fields();
+        //document.WebToLeadForm.submit();
       }
 
       function check_webtolead_fields() {
